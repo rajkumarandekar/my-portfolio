@@ -24,7 +24,7 @@ const projectList = [
     image:
       "https://res.cloudinary.com/dofzu13gt/image/upload/v1704460832/Rectangle_7_1_gztagi.jpg",
     description:
-      "Fashioned as an interface presentation, this project features a portfolio highlighting mobile devices, mobile user experience considerations.",
+      "Fashioned as an interface presentation, this project features a portfolio highlighting mobile devices.",
   },
 ];
 
