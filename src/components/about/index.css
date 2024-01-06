@@ -1,0 +1,786 @@
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+     height: 100vh;
+     width: 100vw;
+
+   }
+
+
+.left-content {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+width: 50vw;
+height: 100vh;
+top: 111px;
+left: 120px;
+gap: 12px;
+
+
+}
+
+.left-heading{
+
+    color: #FDC435;
+
+    padding-top: 120px;
+    letter-spacing: 8px;
+    padding-left: 50px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 32px;
+
+
+
+}
+
+
+.left-para {
+
+color: #333333;
+font-family: Playfair Display;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+width: 686px;
+height: 154px;
+padding-left: 50px;
+
+}
+
+.left-para1 {
+    width: 400px;
+    height: 200px;
+    gap: 12px;
+    padding-left: 50px;
+    color: #828282;
+
+font-family: Nunito;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.buttons{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    padding-left: 70px;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+     border-style: none;
+    cursor: pointer;
+    gap: 12px;
+}
+
+.button-mainpage{
+    width: 115px;
+    height: 43px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    background: #FDC435;
+  color: #000;
+ font-size: 15px;
+ border-style: none;
+
+}
+
+
+.button-mainpage1{
+    width: 115px;
+    height: 43px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+
+  color: #000;
+ font-size: 15px;
+
+
+}
+
+.img-mainpage {
+    width: 720px;
+height: 629px;
+left: 720px;
+}
+
+.second-side{
+    width: 720px;
+height: 629px;
+
+
+}
+
+@media only screen and (min-width: 601px) {
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+     height: 100%;
+     width: 100%;
+   }
+
+
+.left-content {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+width: 100%;
+height: 100%;
+top: 111px;
+left: 120px;
+gap: 12px;
+
+
+}
+
+.left-heading{
+
+    color: #FDC435;
+
+    padding-top: 120px;
+    letter-spacing: 8px;
+    padding-left: 70px;
+    font-family: Nunito;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 32px;
+
+
+
+}
+
+
+.left-para {
+
+color: #333333;
+font-family: Playfair Display;
+font-size: 44px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+width: 500px;
+height: 154px;
+padding-left: 70px;
+
+}
+
+.left-para1 {
+    width: 400px;
+    height: 200px;
+    gap: 12px;
+    padding-left: 70px;
+    color: #828282;
+
+font-family: Nunito;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.buttons{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    padding-left: 70px;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+     border-style: none;
+    cursor: pointer;
+    gap: 12px;
+}
+
+.button-mainpage{
+    width: 115px;
+    height: 43px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    background: #FDC435;
+  color: #000;
+ font-size: 15px;
+ border-style: none;
+
+}
+
+
+.button-mainpage1{
+    width: 115px;
+    height: 43px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+
+  color: #000;
+ font-size: 15px;
+
+
+}
+
+.img-mainpage {
+    width: 550px;
+height: 600px;
+left: 720px;
+object-fit: cover;
+}
+
+.second-side{
+    margin-top: 60px;
+    width: 550px;
+height: 629px;
+
+
+}
+
+}
+
+
+@media only screen and  (max-width: 600px) {
+
+    .main-page {
+        display: flex;
+        flex-direction: column;
+
+         height: 100%;
+         width: 100%;
+
+       }
+
+
+    .left-content {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    top: 111px;
+    left: 120px;
+    gap: 12px;
+
+
+    }
+
+    .left-heading{
+
+        color: #FDC435;
+
+        padding-top: 120px;
+        letter-spacing: 8px;
+        padding-left: 50px;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        gap: 32px;
+
+
+
+    }
+
+
+    .left-para {
+
+    color: #333333;
+    font-family: Playfair Display;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
+    height: 154px;
+    padding-left: 50px;
+
+    }
+
+    .left-para1 {
+        width: 400px;
+        height: 200px;
+        gap: 12px;
+        padding-left: 50px;
+        color: #828282;
+
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    }
+
+    .buttons{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        padding-left: 70px;
+        color: black;
+        font-size: 20px;
+        border-radius: 8px;
+         border-style: none;
+        cursor: pointer;
+        gap: 12px;
+    }
+
+    .button-mainpage{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+        background: #FDC435;
+      color: #000;
+     font-size: 15px;
+     border-style: none;
+
+    }
+
+
+    .button-mainpage1{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+
+      color: #000;
+     font-size: 15px;
+
+
+    }
+
+    .img-mainpage {
+      width: 100%;
+     height: 100%;
+     object-fit: cover;
+
+    }
+
+    .second-side{
+        width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    object-fit: cover;
+
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .main-page {
+        display: flex;
+        flex-direction: row;
+
+         height: 100%;
+         width: 100%;
+
+       }
+
+
+    .left-content {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    top: 111px;
+    left: 120px;
+    gap: 12px;
+
+
+    }
+
+    .left-heading{
+
+        color: #FDC435;
+
+        padding-top: 120px;
+        letter-spacing: 8px;
+        padding-left: 50px;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        gap: 32px;
+
+
+
+    }
+
+
+    .left-para {
+
+    color: #333333;
+    font-family: Playfair Display;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 500px;
+    height: 154px;
+    padding-left: 50px;
+
+    }
+
+    .left-para1 {
+        width: 400px;
+        height: 200px;
+        gap: 12px;
+        padding-left: 50px;
+        color: #828282;
+
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    }
+
+    .buttons{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        padding-left: 70px;
+        color: black;
+        font-size: 20px;
+        border-radius: 8px;
+         border-style: none;
+        cursor: pointer;
+        gap: 12px;
+    }
+
+    .button-mainpage{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+        background: #FDC435;
+      color: #000;
+     font-size: 15px;
+     border-style: none;
+
+    }
+
+
+    .button-mainpage1{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+
+      color: #000;
+     font-size: 15px;
+
+
+    }
+
+    .img-mainpage {
+        width: 720px;
+    height: 629px;
+    left: 720px;
+    }
+
+    .second-side{
+        width: 320px;
+    height: 629px;
+
+
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+
+    .main-page {
+        display: flex;
+        flex-direction: row;
+
+         height: 100%;
+         width: 100%;
+
+       }
+
+
+    .left-content {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    width: 50vw;
+    height: 100vh;
+    top: 111px;
+    left: 120px;
+    gap: 12px;
+
+
+    }
+
+    .left-heading{
+
+        color: #FDC435;
+
+        padding-top: 120px;
+        letter-spacing: 8px;
+        padding-left: 50px;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        gap: 32px;
+
+
+
+    }
+
+
+    .left-para {
+
+    color: #333333;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 686px;
+    height: 154px;
+    padding-left: 50px;
+
+    }
+
+    .left-para1 {
+        width: 400px;
+        height: 200px;
+        gap: 12px;
+        padding-left: 50px;
+        color: #828282;
+
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    }
+
+    .buttons{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        padding-left: 70px;
+        color: black;
+        font-size: 20px;
+        border-radius: 8px;
+         border-style: none;
+        cursor: pointer;
+        gap: 12px;
+    }
+
+    .button-mainpage{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+        background: #FDC435;
+      color: #000;
+     font-size: 15px;
+     border-style: none;
+
+    }
+
+
+    .button-mainpage1{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+
+      color: #000;
+     font-size: 15px;
+
+
+    }
+
+    .img-mainpage {
+        width: 720px;
+    height: 629px;
+    left: 720px;
+    }
+
+    .second-side{
+        width: 520px;
+    height: 629px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .main-page {
+        display: flex;
+        flex-direction: row;
+
+         height: 100%;
+         width: 100%;
+
+       }
+
+
+    .left-content {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    width: 50vw;
+    height: 100vh;
+    top: 111px;
+    left: 120px;
+    gap: 12px;
+
+
+    }
+
+    .left-heading{
+
+        color: #FDC435;
+
+        padding-top: 120px;
+        letter-spacing: 8px;
+        padding-left: 70px;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        gap: 32px;
+
+
+
+    }
+
+
+    .left-para {
+
+    color: #333333;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 686px;
+    height: 154px;
+    padding-left: 70px;
+
+    }
+
+    .left-para1 {
+        width: 400px;
+        height: 200px;
+        gap: 12px;
+        padding-left: 70px;
+        color: #828282;
+
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    }
+
+    .buttons{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        padding-left: 70px;
+        color: black;
+        font-size: 20px;
+        border-radius: 8px;
+         border-style: none;
+        cursor: pointer;
+        gap: 12px;
+    }
+
+    .button-mainpage{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+        background: #FDC435;
+      color: #000;
+     font-size: 15px;
+     border-style: none;
+
+    }
+
+
+    .button-mainpage1{
+        width: 115px;
+        height: 43px;
+        padding: 8px, 24px, 8px, 24px;
+        border-radius: 8px;
+
+      color: #000;
+     font-size: 15px;
+
+
+    }
+
+    .img-mainpage {
+        width: 720px;
+    height: 629px;
+    left: 720px;
+    }
+
+    .second-side{
+        width: 720px;
+    height: 629px;
+
+
+    }
+}
