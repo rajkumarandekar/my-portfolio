@@ -8,7 +8,7 @@ const projectList = [
     image:
       "https://res.cloudinary.com/dojn2omox/image/upload/v1704393205/vnkg5zfgctao7q1b8b6h.png",
     description:
-      "Crafted as a Figma interface demonstration, this project showcases a portfolio designed around yoga, emphasizing serene aesthetics and intuitive user interaction.",
+      "Crafted as a Figma interface demonstration, this project showcases a portfolio designed around yoga.",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const projectList = [
     image:
       "https://res.cloudinary.com/dojn2omox/image/upload/v1704396948/ceaguwhwati5jmn1iokq.png",
     description:
-      "Developed as an interface showcase, this project exemplifies a portfolio centered on a to-do list application, focusing on clean design and seamless task management.",
+      "Developed as an interface showcase, this project exemplifies a portfolio centered on a to-do list application.",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projectList = [
     image:
       "https://res.cloudinary.com/dofzu13gt/image/upload/v1704460832/Rectangle_7_1_gztagi.jpg",
     description:
-      "Fashioned as an interface presentation, this project features a portfolio highlighting mobile devices, emphasizing sleek design elements and mobile user experience considerations.",
+      "Fashioned as an interface presentation, this project features a portfolio highlighting mobile devices, mobile user experience considerations.",
   },
 ];
 
