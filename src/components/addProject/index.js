@@ -4,19 +4,19 @@ import "./index.css";
 const projectList = [
   {
     id: 1,
-    name: "Restaurant",
+    name: "Yoga",
     image:
       "https://res.cloudinary.com/dojn2omox/image/upload/v1704393205/vnkg5zfgctao7q1b8b6h.png",
     description:
-      "I created this personal project to demonstrate Figma interface creation using a portfolio as an example.",
+      "Crafted as a Figma interface demonstration, this project showcases a portfolio designed around yoga, emphasizing serene aesthetics and intuitive user interaction.",
   },
   {
     id: 2,
-    name: "Wikipedia",
+    name: "Todolist",
     image:
       "https://res.cloudinary.com/dojn2omox/image/upload/v1704396948/ceaguwhwati5jmn1iokq.png",
     description:
-      "I created this personal project to demonstrate Figma interface creation using a portfolio as an example.",
+      "Developed as an interface showcase, this project exemplifies a portfolio centered on a to-do list application, focusing on clean design and seamless task management.",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projectList = [
     image:
       "https://res.cloudinary.com/dofzu13gt/image/upload/v1704460832/Rectangle_7_1_gztagi.jpg",
     description:
-      "I created this personal project to demonstrate Figma interface creation using a portfolio as an example.",
+      "Fashioned as an interface presentation, this project features a portfolio highlighting mobile devices, emphasizing sleek design elements and mobile user experience considerations.",
   },
 ];
 

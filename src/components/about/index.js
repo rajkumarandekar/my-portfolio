@@ -9,10 +9,10 @@ const About = () => {
       <div className="main-page" id="about">
         <div className="left-content">
           <h1 className="left-heading">UI/UX DESIGNER</h1>
-          <p className="left-para">Hello, my name is Madelyn Torff</p>
+          <p className="left-para">Hello, my name is Rajkumar Andekar</p>
           <p className="left-para1">
-            Short text with details about you, what you do or your professional
-            career. You can add more information on the about page.
+            I specialize in crafting intuitive and user-centric UI/UX designs,
+            ensuring seamless and engaging experiences for all users.
           </p>
           <div className="buttons">
             <button type="button" className="button-mainpage">
